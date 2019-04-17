@@ -37,8 +37,33 @@ h1{
 }
 
 @media only screen and (max-width: 600px) {
+  .img-main{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
   .navName{
     width: 100%;
+    margin-top: 10px;
+    font-size: 40px;
+  }
+
+  .book{
+    margin-left: 5px;
+  }
+
+  i{
+    margin-left: 5px;
+  }
+
+  .parallax{
+    
+    margin-left: -300px;
+
+  }
+  h1{
+    font-size: 30px;
   }
   
 }

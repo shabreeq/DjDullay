@@ -36,7 +36,20 @@ h1{
   font-family: 'Permanent Marker', cursive;
 }
 
-@media only screen and (max-width: 600px) {
+.book-mobile{
+  margin-left: 1300px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  width: 250px;
+  margin-top: -50px;
+  color: rgb(228, 5, 16);
+}
+
+.medium{
+  margin-left: 1350px;
+}
+
+@media only screen and (max-width: 1200px) {
   .img-main{
     width: 100%;
     margin-top: 10px;
@@ -50,11 +63,11 @@ h1{
   }
 
   .book{
-    margin-left: 5px;
+    display: none;
   }
 
   i{
-    margin-left: 5px;
+    display: none;
   }
 
   .parallax{
@@ -66,4 +79,15 @@ h1{
     font-size: 30px;
   }
   
+}
+
+@media only screen and (min-width: 1200px) {
+  .book-mobile{
+    display: none;
+  }
+
+  .medium{
+    display: none;
+  }
+
 }
